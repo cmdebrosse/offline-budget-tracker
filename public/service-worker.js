@@ -53,7 +53,13 @@ self.addEventListener("fetch", function (e) {
   e.respondWith(
     caches.match(e.request).then(function (request) {
       if (request) {
-        return request || fetch(e.request);
+        // if cache is available, respond with cache
+        console.log("responding with cache : " + e.request.url);
+        return request;
+      } else {
+        // if cache is unavailable, try fetching request
+        console.log("file is not cached, fetching : " + e.request.url);
+        return fetch(e.request);
       }
     })
   );
