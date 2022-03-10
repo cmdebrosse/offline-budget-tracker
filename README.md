@@ -10,6 +10,11 @@ This app allows users to keep an eye on their accounts whether an internet conne
 
 ## Deployed
 
+The app is deployed on heroku at the following link
+
+https://damp-brushlands-38652.herokuapp.com/
+
+### Screenshot
 
 ![Screenshot of the app's main page](/public/icons/app-screenshot.png)
 
