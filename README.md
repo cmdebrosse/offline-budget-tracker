@@ -10,7 +10,6 @@ This app allows users to keep an eye on their accounts whether an internet conne
 
 ## Deployed
 
-https://radiant-everglades-67705.herokuapp.com/
 
 ![Screenshot of the app's main page](/public/icons/app-screenshot.png)
 
